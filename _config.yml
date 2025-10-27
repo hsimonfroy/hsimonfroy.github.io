@@ -200,8 +200,9 @@ exclude:
   - _pages/dropdown.md
   - _pages/teaching.md
   - _news/
-  # - _posts/
-  # - _projects/?_project.md
+  - _posts/
+  - _projects/
+  - _books/
   # - assets/jupyter/blog.ipynb
 keep_files:
   - CNAME

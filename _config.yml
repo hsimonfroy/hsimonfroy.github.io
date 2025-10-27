@@ -143,15 +143,15 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Collections
 # -----------------------------------------------------------------------------
 
-# collections:
-#   books:
-#     output: true
-#   news:
-#     defaults:
-#       layout: post
-#     output: true
-#   projects:
-#     output: true
+collections:
+  books:
+    output: true
+  news:
+    defaults:
+      layout: post
+    output: true
+  projects:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -193,16 +193,16 @@ exclude:
   - readme_preview/
   - vendor
 
-  - _pages/blog.md
-  - _pages/books.md
-  - _pages/projects.md
-  - _pages/profiles.md
-  - _pages/dropdown.md
-  - _pages/teaching.md
-  - _news/announcement_*.md
-  - _posts/
-  - _projects/?_project.md
-  - assets/jupyter/blog.ipynb
+  # - _pages/blog.md
+  # - _pages/books.md
+  # - _pages/projects.md
+  # - _pages/profiles.md
+  # - _pages/dropdown.md
+  # - _pages/teaching.md
+  # - _news/announcement_*.md
+  # - _posts/
+  # - _projects/?_project.md
+  # - assets/jupyter/blog.ipynb
 keep_files:
   - CNAME
   - .nojekyll

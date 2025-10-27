@@ -194,11 +194,11 @@ exclude:
   - vendor
 
   - _pages/blog.md
-  # - _pages/books.md
-  # - _pages/projects.md
-  # - _pages/profiles.md
+  - _pages/books.md
+  - _pages/projects.md
+  - _pages/profiles.md
   - _pages/dropdown.md
-  # - _pages/teaching.md
+  - _pages/teaching.md
   - _news/
   # - _posts/
   # - _projects/?_project.md

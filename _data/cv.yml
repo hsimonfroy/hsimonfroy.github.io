@@ -1,19 +1,9 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
-- title: Education
+- title: Experience
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Cosmology and Machine Learning PhD student
+      institution: CEA, Irfu, Gif-sur-Yvette, France
+      year: 2023 - 2026
       description:
         - Description 1.
         - Description 2.

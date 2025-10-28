@@ -1,87 +1,63 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Cosmology and Machine Learning PhD student
+    - title: Cosmology and Machine Learning PhD candidate
       institution: CEA, Irfu, Gif-sur-Yvette, France
       year: 2023 - 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Scalable Bayesian inference with automatically differentiable simulators for the cosmological analysis of the DESI spectroscopic survey.
+        - "Advisors: A. de Mattia, <a href='https://flanusse.net/'>F. Lanusse</a>"
+    - title: Machine Learning Research Engineer
+      institution: CNRS, UMR 9189 CRIStAL, Lille, France
+      year: 2022/05 - 2023/01
       description:
-        - Description 1.
-        - Description 2.
+        - Subsampling methods for large datasets learning. 
+        - "Advisors: <a href='https://rbardenet.github.io/'>R. Bardenet</a> and <a href='https://subhro-ghosh.github.io/'>S. Ghosh</a>."
+    - title: Statistics Research Intern
+      institution: UCLouvain, ISBA, Louvain-la-Neuve, Belgium
+      year: 2021/05 - 2021/08
+      description:
+        - Adaptive importance sampling with control variates.
+    - title: Avionics R&D Intern
+      institution: Safran Electronics & Defense, Éragny, France
+      year: 2020/09 - 2021/03
+      description:
+        - Refining aerodynamic characterization methods from simulated and flight test inertial data.
+    - title: Bioinformatics Research Intern
+      institution: INRIA, UMR 6074 IRISA, Rennes, France
+      year: 2019/07 - 2019/08
+      description:
+        - Identifying key regulators within multiomic networks.
+    - title: Laboratory & Field Research Technician
+      institution: INRAE, UMR 1349 IGEPP, Le Rheu, France
+      year: Summers 2017 & 2018
+      description:
+        - Biological experimenting and data analysis for insect population dynamics modeling.
 
-- title: Experience
+
+- title: Education
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: MSc in Maths, Imaging, Machine Learning (MVA)
+      institution: ENS Paris-Saclay, France
+      year: 2021 - 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - " Studying: <a href='https://github.com/hsimonfroy/MVA'>Bayesian/deep/reinforcement/geometric/topological/graph learning, neuroscience, image/language/signal processing, transport theory, random matrix theory</a>"
+    - title: MEng in Applied Maths and Computer Science
+      institution: Télécom Paris, France
+      year: 2018 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - "Specializations: image/language/signal processing and machine learning, stochastic modeling and calculus, theoretical computer science."
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Preparatory Classes for Grandes Écoles
+      institution: Lycée F. Rabelais, Saint-Brieuc, France
+      year: 2016 - 2018
       description:
+        - Selective scientific studies for competitive admission to top-tier French graduate schools.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Scientific baccalaureate
+      institution: Lycée T. Monod, Le Rheu, France
+      year: 2016
+      description:
+        - French secondary school diploma.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

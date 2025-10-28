@@ -203,7 +203,7 @@ exclude:
   - _posts/
   - _projects/
   - _books/
-  # - assets/jupyter/blog.ipynb
+  - assets/json/resume.json
 keep_files:
   - CNAME
   - .nojekyll

@@ -17,3 +17,8 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
+I am a PhD candidate in Cosmology and Machine Learning at CEA Paris-Saclay, supervised by Arnaud de Mattia and [François Lanusse](https://flanusse.net/). I am also a member of the [DESI collaboration](https://www.desi.lbl.gov/), which is building the largest 3D map of the Universe to date. 
+
+My research primarily focuses on **field-level modeling** and **scalable Bayesian inference**, to extract maximum information from cosmological surveys, leveraging fast and differentiable cosmological models and high-dimensional ($\geq 10^6$) sampling methods. My current efforts center on **field-level inference of primordial non-Gaussianity from DESI**.
+
+

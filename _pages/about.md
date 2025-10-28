@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD candidate in Cosmology and Machine Learning at CEA Paris-Saclay.
+subtitle: **Cosmology and Machine Learning at CEA Paris-Saclay**
 
 profile:
   align: right

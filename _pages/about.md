@@ -18,7 +18,6 @@ profile:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-
 ---
 
 I am a **PhD candidate in Cosmology and Machine Learning at CEA Paris-Saclay**, supervised by Arnaud de Mattia and [François Lanusse](https://flanusse.net/). I am also a member of the [DESI collaboration](https://www.desi.lbl.gov/), which is building the largest 3D map of the Universe to date. 

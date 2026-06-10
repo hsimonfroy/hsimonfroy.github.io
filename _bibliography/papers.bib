@@ -3,15 +3,38 @@
 \newcommand{\me}{\textbf{Hugo Simon}}
 
 
-@article{simononfroy2025fieldlevelpnginference,
+@article{simononfroy2026fieldlevelpnginference,
     title={{Measurement of primordial non-Gaussianity at the field level with DESI DR1}}, 
-    author={{[In prep.] Hugo Simon} and Arnaud de Mattia and François Lanusse},
-    year={2025},
+    author={{[In prep.] Hugo Simon} and {de Mattia}, Arnaud and {Lanusse}, François},
+    year={2026},
     archivePrefix={arXiv},
     primaryClass={astro-ph.CO},
     annote = {A demonstration of field-level inference to constrain primordial non-Gaussianity from DESI, involving the implementation of a field-level model with survey realism, and validation on \texttt{AbacusSummit} and \texttt{PNG-Unitsims} N-body simulations populated via
     Halo Occupation Distribution.},
 }
+
+
+@ARTICLE{payerne2026_capish,
+       author = {{Payerne}, Constantin and {Murray}, Calum and {Simon}, Hugo},
+        title = "{Simulation-based cosmological inference from optically-selected galaxy clusters with Capish}",
+      journal = {arXiv e-prints},
+     keywords = {Cosmology and Nongalactic Astrophysics},
+         year = 2026,
+        month = feb,
+        arxiv = {arXiv:2602.01911},
+        pages = {arXiv:2602.01911},
+          doi = {10.48550/arXiv.2602.01911},
+archivePrefix = {arXiv},
+       eprint = {2602.01911},
+ primaryClass = {astro-ph.CO},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2026arXiv260201911P},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+      abbr = {A&A},
+      preview = {capish.png},
+}
+
+
+
 
 @article{simon2025benchmarkingfieldlevelcosmologicalinference,
     doi = {10.1088/1475-7516/2025/12/039},
@@ -22,7 +45,7 @@
     volume = {2025},
     number = {12},
     pages = {039},
-    author = {Simon, Hugo and Lanusse, François and de Mattia, Arnaud},
+    author = {Simon, Hugo and Lanusse, François and {de Mattia}, Arnaud},
     title = {Benchmarking field-level cosmological inference from galaxy redshift surveys},
     journal = {Journal of Cosmology and Astroparticle Physics},
     abstract = {Field-level inference has emerged as a promising framework to fully harness the cosmological information encoded in next-generation galaxy surveys. It involves performing Bayesian inference to jointly estimate the cosmological parameters and the initial conditions of the cosmic field, directly from the observed galaxy density field. Yet, the scalability and efficiency of sampling algorithms for field-level inference of large-scale surveys remain unclear. To address this, we introduce a standardized benchmark using a fast and differentiable simulator for the galaxy density field based on JaxPM. We evaluate a range of sampling methods, including standard Hamiltonian Monte Carlo (HMC), No-U-Turn Sampler (NUTS) without and within a Gibbs scheme, and both adjusted and unadjusted microcanonical samplers (MAMS and MCLMC). These methods are compared based on their efficiency, in particular the number of model evaluations required per effective posterior sample. Our findings emphasize the importance of carefully preconditioning latent variables and demonstrate the significant advantage of (unadjusted) MCLMC for scaling to $\geq 10^6$-dimensional problems. We find that MCLMC outperforms adjusted samplers by over an order-of-magnitude, with a mild scaling with the dimension of our inference problem. This benchmark, along with the associated publicly available code, is intended to serve as a basis for the evaluation of future field-level sampling strategies. The code is openly available at https://github.com/hsimonfroy/benchmark-field-level.},
@@ -74,6 +97,7 @@
   annote = {An open-source Python library to manipulate and analyze large multiomic graphs from international databases.},
   options = {maxnames=99},
   abbr = {Bioinformatics},
+  preview = {pax2graphml.png},
 }
 
 

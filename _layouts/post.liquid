@@ -16,17 +16,18 @@ layout: default
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">
-      Created on {{ page.date | date: '%B %d, %Y' }}
-      {% if page.author %}by {{ page.author }}{% endif %}
-      {% if page.last_updated %}, last updated on {{ page.last_updated | date: '%B %d, %Y' }}{% endif %}
-      {% if page.meta %}• {{ page.meta }}{% endif %}
-    </p>
+    {% if page.author or page.last_updated or page.meta %}
+      <p class="post-meta">
+        {% if page.author %}by {{ page.author }}{% endif %}
+        {% if page.last_updated %}{% if page.author %}, {% endif %}last updated on {{ page.last_updated | date: '%Y %B %d' }}{% endif %}
+        {% if page.meta %}{% if page.author or page.last_updated %} • {% endif %}{{ page.meta }}{% endif %}
+      </p>
+    {% endif %}
     <p class="post-tags">
       {% if url_beginning == '/blog/' %}
-        <a href="{{ year | prepend: '/blog/' | relative_url }}"> <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
+        <a href="{{ year | prepend: '/blog/' | relative_url }}"> <i class="fa-solid fa-calendar fa-sm"></i> {{ page.date | date: '%Y %B %d' }} </a>
       {% else %}
-        <i class="fa-solid fa-calendar fa-sm"></i> {{ year }}
+        <i class="fa-solid fa-calendar fa-sm"></i> {{ page.date | date: '%Y %B %d' }}
       {% endif %}
       {% if tags != '' %}
         &nbsp; &middot; &nbsp;

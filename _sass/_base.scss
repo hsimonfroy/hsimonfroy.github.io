@@ -183,6 +183,21 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Image comparison slider
+
+img-comparison-slider {
+  display: block;
+  width: 100%;
+  max-width: 600px; // reduce size — tunable
+  margin: 0 auto; // center
+
+  figure,
+  img {
+    width: 100%;
+    margin: 0; // drop default <figure> margin that adds blank space
+  }
+}
+
 // Citation
 
 .citation,
@@ -213,6 +228,17 @@ ul.task-list input[type="checkbox"] {
 
 .profile.float-left {
   margin-right: 1rem;
+}
+
+@media (max-width: 575.98px) {
+  .profile,
+  .profile.float-right,
+  .profile.float-left {
+    float: none !important;
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (min-width: 576px) {
@@ -383,7 +409,29 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-#light-toggle,
+#light-toggle {
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  color: var(--global-text-color);
+  /* Fix footprint to prevent navbar shifting when icon changes */
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    color: var(--global-hover-color);
+  }
+}
+
+@media (min-width: 576px) {
+  #light-toggle {
+    transform: translateY(4px);
+  }
+}
+
 #search-toggle {
   padding: 0;
   border: 0;
@@ -494,13 +542,14 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+//   border-top: 1px solid var(--global-divider-color);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 0.75rem;
 
   .container {
     text-align: center;
+    opacity: 0.5;
   }
 }
 
@@ -591,8 +640,12 @@ footer.sticky-bottom {
   li {
     border-bottom: 1px solid var(--global-divider-color);
     list-style: none;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    .card-img {
+      padding-top: 0;
+    }
 
     .post-meta {
       color: var(--global-text-color-light);

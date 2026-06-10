@@ -5,6 +5,7 @@ repo_description_lines_max: 2
 
 github_repos:
   - hsimonfroy/benchmark-field-level
+  - hsimonfroy/hollved
   - DifferentiableUniverseInitiative/JaxPM
   - blackjax-devs/blackjax
   - hsimonfroy/MVA

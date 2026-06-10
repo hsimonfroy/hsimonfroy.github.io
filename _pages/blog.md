@@ -84,9 +84,9 @@ pagination:
                     {% assign year = post.date | date: "%Y" %}
 
                     <p class="post-meta">
-                      {{ read_time }} min read &nbsp; &middot; &nbsp;
+                      {% comment %}{{ read_time }} min read &nbsp; &middot; &nbsp;{% endcomment %}
                       <a href="{{ year | prepend: '/blog/' | relative_url }}">
-                        <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
+                        <i class="fa-solid fa-calendar fa-sm"></i> {{ post.date | date: '%Y %B %d' }} </a>
                     </p>
                   </div>
                 </div>
@@ -141,15 +141,14 @@ pagination:
       </h3>
       <p>{{ post.description }}</p>
       <p class="post-meta">
-        {{ read_time }} min read &nbsp; &middot; &nbsp;
-        {{ post.date | date: '%B %d, %Y' }}
+        {% comment %}{{ read_time }} min read{% endcomment %}
         {% if post.external_source %}
         &nbsp; &middot; &nbsp; {{ post.external_source }}
         {% endif %}
       </p>
       <p class="post-tags">
         <a href="{{ year | prepend: '/blog/' | relative_url }}">
-          <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
+          <i class="fa-solid fa-calendar fa-sm"></i> {{ post.date | date: '%Y %B %d' }} </a>
 
           {% if tags != "" %}
           &nbsp; &middot; &nbsp;
@@ -179,7 +178,7 @@ pagination:
 </div>
 
   <div class="col-sm-3">
-    <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="object-fit: cover; height: 90%" alt="image">
+    <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="width: 100%; height: 150px; object-fit: cover;" alt="image">
   </div>
 </div>
 {% endif %}

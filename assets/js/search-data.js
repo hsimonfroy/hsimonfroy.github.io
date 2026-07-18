@@ -41,7 +41,7 @@ ninja.data = [{
         
           title: "Arizona, Dark energy, and my Dog",
         
-        description: "My reinterpretation of the DESI logo",
+        description: "A reinterpretation of the DESI logo",
         section: "Posts",
         handler: () => {
           

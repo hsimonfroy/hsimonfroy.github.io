@@ -968,6 +968,12 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post {
+  // Match the plain description paragraph on the blog index
+  .post-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
   .post-meta {
     color: var(--global-text-color-light);
     font-size: 0.875rem;

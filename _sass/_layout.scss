@@ -1,11 +1,19 @@
 /******************************************************************************
  * Content
  ******************************************************************************/
+// html {
+//   font-size: 17px; // default is 16px
+// }
+
 
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-size: 1.1rem;
+//   font-family: "PT Serif", Georgia, serif;
+//   font-family: "Roboto Slab", serif;
+//   font-weight: 300; // default is 300
 
   h1,
   h2,

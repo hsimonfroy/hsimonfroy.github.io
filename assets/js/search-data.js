@@ -59,6 +59,17 @@ ninja.data = [{
             window.location.href = "/blog/2024/teaching-freq/";
           
         },
+      },{id: "post-fitting-the-universe-a-tutorial",
+        
+          title: "Fitting the Universe, a tutorial",
+        
+        description: "Probabilistic Programming for Cosmology",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/ppl4cosmo/";
+          
+        },
       },{id: "post-teaching-bayesian-statistics",
         
           title: "Teaching Bayesian statistics",
